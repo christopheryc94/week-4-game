@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+.jumbotron {
+	background-color: black;
+	color: white;
+}
+
+.randomNum {
+	background-color: black;
+	color: white;
+	text-align: center;;
+	height: 200px;
+	padding: 20px;
+	margin: 0, 20px;
+	margin-right: 10px;
+}
+
+#randomNumber {
+	padding: 40px;
+	text-height: 60px;
+}
+
+#updateScore {
+	padding: 10px;
+	text-height: 70%;
+}
+
+.totalScore {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 200px;
+	padding: 20px;
+	margin: 0, 20px;
+	margin-right: 10px;
+}
+
+.score {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+.gemNumber {
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	background-color: black;
+	border-color: white;
+	padding: 10px;
+}
+

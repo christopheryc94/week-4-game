@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+
+	<!-- Added link to the jQuery Library -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- reset link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Bootstrap CDN -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+    <!-- my css link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="jumbotron">
+		  <h1 class="display-3">Crystals Collector's!</h1>
+		  <br>
+		  <p class="lead">You will be given a random number at the start of the game.
+			</p><p>
+			There are four crystals below. By Clicking on a crystal you will add a specific amount of points to your total score.
+			</p><p>
+			You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+			</p><p>
+			The value of each crystal is hidden from you until you click on it.
+			</p><p>
+			Each time when the game starts, the game will change the values of each crystal.</p>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 randomNum">	
+				<h2 id="randomNumber"></h2>
+			</div>
+			<div class="col-md-3 totalScore">
+				<h4>Your total score is: </h4>
+				<h2 id="updateScore"></h2>
+			</div>
+			<div class="col-md-3 score">
+				<p id="winScore">Wins: </p>
+				<p id="lossScore">Losses: </p>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-2 gem" value="gem1">
+				<img src="assets/images/gem1.png" class="gemNumber" alt="gem1">
+			</div>
+			<div class="col-md-2 gem" value="gem2">
+				<img src="assets/images/gem2.png" class="gemNumber" alt="gem2">
+			</div>
+			<div class="col-md-2 gem" value="gem3">
+				<img src="assets/images/gem3.png" class="gemNumber" alt="gem3">
+			</div>
+			<div class="col-md-2 gem" value="gem4">
+				<img src="assets/images/gem4.png" class="gemNumber" alt="gem4">
+			</div>
+		</div>
+
+	</div>
+
+	<!-- JS LINK!! -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
